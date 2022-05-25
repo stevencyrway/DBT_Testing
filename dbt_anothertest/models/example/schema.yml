@@ -18,3 +18,11 @@ models:
         description: "The primary key for this table"
         tests:
           - not_null
+
+  - name: Subscriptions
+      description: "A calculation of the total highlights by team"
+      columns:
+        - name: teamid
+          description: "The primary key for this table"
+          tests:
+            - not_null
