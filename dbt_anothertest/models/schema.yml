@@ -3,14 +3,14 @@ version: 2
 
 models/AggregationLayer:
   - name: TeamActions
-    description: "An attribute value pair table of all types of actions by team and time"
+    description: An attribute value pair table of all types of actions by team and time
     columns:
       - name: teamid
         description: "The primary key for this table"
         tests:
 
   - name: SubscriptionsProd
-    description: "The base table for subscriptions"
+    description: The base table for subscriptions
     columns:
       - name: teamid
         description: "The primary key for this table"
@@ -18,7 +18,7 @@ models/AggregationLayer:
 
 models/SemanticLayer:
   - name: RenewalRates
-    description: "Renewal Rates by Sport"
+    description: Renewal Rates by Sport
     columns:
       - name: sport
         description: "The primary key for this table"

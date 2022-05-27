@@ -1,10 +1,8 @@
-Welcome to your new dbt project!
+Welcome to my test DBT project. 
 
-### Using the starter project
+### A test deployment to demonstrate skills
 
-Try running the following commands:
-- dbt run
-- dbt test
+Based on a digitalocean postgres server deployment for cost. 
 
 
 ### Resources:
