@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: PostgresPersonal
+    database: defaultdb
+    tables:
+      - name: teams
+      - name: uploads
+      - name: views
+      - name: subscriptions
+      - name: highlights

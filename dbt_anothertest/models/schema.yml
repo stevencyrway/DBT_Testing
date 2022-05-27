@@ -1,0 +1,24 @@
+
+version: 2
+
+models:
+  - name: TeamActions
+    description: "An attribute value pair table of all types of actions by team and time"
+    columns:
+      - name: teamid
+        description: "The primary key for this table"
+        tests:
+
+  - name: SubscriptionsProd
+    description: "The base table for subscriptions"
+    columns:
+      - name: teamid
+        description: "The primary key for this table"
+        tests:
+
+  - name: TeamActionsView
+    description: "The base table for subscriptions"
+    columns:
+      - name: teamid
+        description: "The primary key for this table"
+        tests:
