@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2edd54-31dd-4010-a640-5bf200405931" name="Changes" comment="First Push">
-      <change afterPath="$PROJECT_DIR$/dbt_anothertest/models/AggregationLayer/TeamActions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/RenewalRates.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/TeamActionsView.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_anothertest/models/Sources.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt_anothertest/models/schema.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/SubscriptionTermUsage.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c150df19-fc35-43b2-ae90-a07010076bc7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c150df19-fc35-43b2-ae90-a07010076bc7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c150df19-fc35-43b2-ae90-a07010076bc7/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/dev_schema.C93LOA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c150df19-fc35-43b2-ae90-a07010076bc7/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/dev_schema.C93LOA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c150df19-fc35-43b2-ae90-a07010076bc7/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/dev_schema.C93LOA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c150df19-fc35-43b2-ae90-a07010076bc7/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/dev_schema.C93LOA.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_anothertest/dbt_project.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/example/Subscriptions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_anothertest/models/AggregationLayer/SubscriptionsProd.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/example/TotalHighlights.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/example/my_first_dbt_model.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/example/schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/RenewalRates.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/RenewalRates.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/TeamActionsView.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/TeamActionsView.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_anothertest/models/schema.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
