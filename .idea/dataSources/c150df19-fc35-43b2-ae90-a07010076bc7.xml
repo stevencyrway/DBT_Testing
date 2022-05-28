@@ -7,7 +7,7 @@
 16384||10|C|G
 16384||-9223372036854775808|T|G
 16384||10|T|G</Grants>
-      <IntrospectionStateNumber>124934</IntrospectionStateNumber>
+      <IntrospectionStateNumber>125711</IntrospectionStateNumber>
       <ServerVersion>14.3</ServerVersion>
       <StartupTime>1652899870</StartupTime>
       <TimeZones>true ACDT
@@ -1404,7 +1404,7 @@ true posixrules
 14394||10|C|G
 14394||-9223372036854775808|U|G
 14394||10|U|G</Grants>
-      <IntrospectionStateNumber>124936</IntrospectionStateNumber>
+      <IntrospectionStateNumber>125712</IntrospectionStateNumber>
       <ObjectId>16413</ObjectId>
       <OwnerName>doadmin</OwnerName>
     </database>
@@ -4829,7 +4829,7 @@ true posixrules
       <ValidatorSchema>pg_catalog</ValidatorSchema>
     </language>
     <schema id="262" parent="3" name="dev_schema">
-      <IntrospectionStateNumber>124936</IntrospectionStateNumber>
+      <IntrospectionStateNumber>125712</IntrospectionStateNumber>
       <ObjectId>16414</ObjectId>
       <StateNumber>836</StateNumber>
       <OwnerName>doadmin</OwnerName>
@@ -4853,832 +4853,430 @@ true posixrules
       <StateNumber>526</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <table id="266" parent="262" name="LeadsOverTime">
-      <ObjectId>16479</ObjectId>
-      <StateNumber>34972</StateNumber>
+    <table id="266" parent="262" name="DropinViews">
+      <ObjectId>16869</ObjectId>
+      <StateNumber>125418</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="267" parent="262" name="LeadsProgression">
-      <ObjectId>16484</ObjectId>
-      <StateNumber>34975</StateNumber>
+    <table id="267" parent="262" name="RenewalRates">
+      <ObjectId>16864</ObjectId>
+      <StateNumber>125416</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="268" parent="262" name="RenewalRates">
-      <ObjectId>16731</ObjectId>
-      <StateNumber>124510</StateNumber>
+    <table id="268" parent="262" name="SubscriptionTermUsage">
+      <ObjectId>16874</ObjectId>
+      <StateNumber>125422</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="269" parent="262" name="SubscriptionTermUsage">
-      <ObjectId>16741</ObjectId>
-      <StateNumber>124908</StateNumber>
+    <table id="269" parent="262" name="SubscriptionsProd">
+      <ObjectId>16851</ObjectId>
+      <StateNumber>125403</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="270" parent="262" name="SubscriptionsProd">
-      <ObjectId>16704</ObjectId>
-      <StateNumber>124474</StateNumber>
+    <table id="270" parent="262" name="TeamActions">
+      <ObjectId>16856</ObjectId>
+      <StateNumber>125405</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="271" parent="262" name="TeamActions">
-      <ObjectId>16709</ObjectId>
-      <StateNumber>124476</StateNumber>
+    <table id="271" parent="262" name="TeamActionsView">
+      <ObjectId>16883</ObjectId>
+      <StateNumber>125433</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="272" parent="262" name="TeamActionsView">
-      <ObjectId>16721</ObjectId>
-      <StateNumber>124489</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>doadmin</OwnerName>
-    </table>
-    <table id="273" parent="262" name="accounts">
-      <ObjectId>16422</ObjectId>
-      <StateNumber>848</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>doadmin</OwnerName>
-    </table>
-    <table id="274" parent="262" name="contacts">
-      <ObjectId>16427</ObjectId>
-      <StateNumber>850</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>doadmin</OwnerName>
-    </table>
-    <table id="275" parent="262" name="highlights">
+    <table id="272" parent="262" name="highlights">
       <ObjectId>16490</ObjectId>
       <StateNumber>98216</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="276" parent="262" name="leads">
-      <ObjectId>16432</ObjectId>
-      <StateNumber>851</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>doadmin</OwnerName>
-    </table>
-    <table id="277" parent="262" name="opportunities">
-      <ObjectId>16437</ObjectId>
-      <StateNumber>852</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>doadmin</OwnerName>
-    </table>
-    <table id="278" parent="262" name="subscriptions">
+    <table id="273" parent="262" name="subscriptions">
       <ObjectId>16495</ObjectId>
       <StateNumber>98218</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="279" parent="262" name="teams">
+    <table id="274" parent="262" name="teams">
       <ObjectId>16500</ObjectId>
       <StateNumber>98220</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="280" parent="262" name="uploads">
+    <table id="275" parent="262" name="uploads">
       <ObjectId>16505</ObjectId>
       <StateNumber>98223</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <table id="281" parent="262" name="views">
+    <table id="276" parent="262" name="views">
       <ObjectId>16521</ObjectId>
       <StateNumber>98289</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
-    <view id="282" parent="262" name="TotalHighlights">
+    <view id="277" parent="262" name="TotalHighlights">
       <ObjectId>16546</ObjectId>
       <SourceTextLength>234</SourceTextLength>
       <StateNumber>99683</StateNumber>
       <OwnerName>doadmin</OwnerName>
     </view>
-    <column id="283" parent="266" name="dategrain">
+    <column id="278" parent="266" name="team">
       <DataType>text|0s</DataType>
       <Position>1</Position>
-      <StateNumber>34972</StateNumber>
+      <StateNumber>125418</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="284" parent="266" name="date">
+    <column id="279" parent="266" name="year">
       <DataType>timestamp|0s</DataType>
       <Position>2</Position>
-      <StateNumber>34972</StateNumber>
+      <StateNumber>125418</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="285" parent="266" name="count">
-      <DataType>bigint|0s</DataType>
+    <column id="280" parent="266" name="videoviews">
+      <DataType>numeric|0s</DataType>
       <Position>3</Position>
-      <StateNumber>34972</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>125418</StateNumber>
+      <TypeId>1700</TypeId>
     </column>
-    <column id="286" parent="266" name="convertedflag">
-      <DataType>boolean|0s</DataType>
+    <column id="281" parent="266" name="lastyearviews">
+      <DataType>numeric|0s</DataType>
       <Position>4</Position>
-      <StateNumber>34972</StateNumber>
-      <TypeId>16</TypeId>
+      <StateNumber>125418</StateNumber>
+      <TypeId>1700</TypeId>
     </column>
-    <column id="287" parent="267" name="job_title">
-      <DataType>text|0s</DataType>
-      <Position>1</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="288" parent="267" name="source">
-      <DataType>text|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="289" parent="267" name="country">
-      <DataType>text|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="290" parent="267" name="city">
-      <DataType>text|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="291" parent="267" name="state">
-      <DataType>text|0s</DataType>
+    <column id="282" parent="266" name="maxenddate">
+      <DataType>date|0s</DataType>
       <Position>5</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
+      <StateNumber>125418</StateNumber>
+      <TypeId>1082</TypeId>
     </column>
-    <column id="292" parent="267" name="industry">
-      <DataType>text|0s</DataType>
+    <column id="283" parent="266" name="videodifference">
+      <DataType>numeric|0s</DataType>
       <Position>6</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="293" parent="267" name="fleet_size">
-      <DataType>text|0s</DataType>
-      <Position>7</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="294" parent="267" name="numberofleads">
-      <DataType>bigint|0s</DataType>
-      <Position>8</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="295" parent="267" name="numberofcontacts">
-      <DataType>bigint|0s</DataType>
-      <Position>9</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="296" parent="267" name="numberofopps">
-      <DataType>bigint|0s</DataType>
-      <Position>10</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="297" parent="267" name="numberofaccounts">
-      <DataType>bigint|0s</DataType>
-      <Position>11</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="298" parent="267" name="numberofcompanies">
-      <DataType>bigint|0s</DataType>
-      <Position>12</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="299" parent="267" name="daysleadtoopp">
-      <DataType>numeric|0s</DataType>
-      <Position>13</Position>
-      <StateNumber>34975</StateNumber>
+      <StateNumber>125418</StateNumber>
       <TypeId>1700</TypeId>
     </column>
-    <column id="300" parent="267" name="daystowinopp">
-      <DataType>numeric|0s</DataType>
-      <Position>14</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1700</TypeId>
-    </column>
-    <column id="301" parent="267" name="is_closed">
-      <DataType>boolean|0s</DataType>
-      <Position>15</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="302" parent="267" name="is_won">
-      <DataType>boolean|0s</DataType>
-      <Position>16</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="303" parent="267" name="leadcreatedmonth">
-      <DataType>timestamp|0s</DataType>
-      <Position>17</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="304" parent="267" name="leadcreatedweek">
-      <DataType>timestamp|0s</DataType>
-      <Position>18</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="305" parent="267" name="leadcreatedday">
-      <DataType>timestamp|0s</DataType>
-      <Position>19</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="306" parent="267" name="oppcreatedmonth">
-      <DataType>timestamp|0s</DataType>
-      <Position>20</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="307" parent="267" name="oppcreatedweek">
-      <DataType>timestamp|0s</DataType>
-      <Position>21</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="308" parent="267" name="oppcreatedday">
-      <DataType>timestamp|0s</DataType>
-      <Position>22</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="309" parent="267" name="convertedmonth">
-      <DataType>timestamp|0s</DataType>
-      <Position>23</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="310" parent="267" name="convertedweek">
-      <DataType>timestamp|0s</DataType>
-      <Position>24</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="311" parent="267" name="convertedday">
-      <DataType>timestamp|0s</DataType>
-      <Position>25</Position>
-      <StateNumber>34975</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="312" parent="268" name="sport">
+    <column id="284" parent="267" name="sport">
       <DataType>text|0s</DataType>
       <Position>1</Position>
-      <StateNumber>124510</StateNumber>
+      <StateNumber>125416</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="313" parent="268" name="renewalrate">
+    <column id="285" parent="267" name="renewalrate">
       <DataType>numeric(9,2 digit)|0s</DataType>
       <Position>2</Position>
-      <StateNumber>124510</StateNumber>
+      <StateNumber>125416</StateNumber>
       <TypeId>1700</TypeId>
     </column>
-    <column id="314" parent="268" name="renewalrateformatted">
+    <column id="286" parent="267" name="renewalrateformatted">
       <DataType>text|0s</DataType>
       <Position>3</Position>
-      <StateNumber>124510</StateNumber>
+      <StateNumber>125416</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="315" parent="269" name="concat">
+    <column id="287" parent="268" name="concat">
       <DataType>text|0s</DataType>
       <Position>1</Position>
-      <StateNumber>124908</StateNumber>
+      <StateNumber>125422</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="316" parent="270" name="subscriptionid">
+    <column id="288" parent="269" name="subscriptionid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="317" parent="270" name="teamid">
+    <column id="289" parent="269" name="teamid">
       <DataType>text|0s</DataType>
       <Position>2</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="318" parent="270" name="subscription_term_start_date">
+    <column id="290" parent="269" name="subscription_term_start_date">
       <DataType>date|0s</DataType>
       <Position>3</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="319" parent="270" name="subscription_term_end_date">
+    <column id="291" parent="269" name="subscription_term_end_date">
       <DataType>date|0s</DataType>
       <Position>4</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="320" parent="270" name="total_subscription_price">
+    <column id="292" parent="269" name="total_subscription_price">
       <DataType>double precision|0s</DataType>
       <Position>5</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="321" parent="270" name="activesub">
+    <column id="293" parent="269" name="activesub">
       <DataType>boolean|0s</DataType>
       <Position>6</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="322" parent="270" name="yearssubscribed">
+    <column id="294" parent="269" name="yearssubscribed">
       <DataType>double precision|0s</DataType>
       <Position>7</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="323" parent="270" name="subscriptionendyear">
+    <column id="295" parent="269" name="subscriptionendyear">
       <DataType>double precision|0s</DataType>
       <Position>8</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="324" parent="270" name="RenewalFlag">
+    <column id="296" parent="269" name="RenewalFlag">
       <DataType>text|0s</DataType>
       <Position>9</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="325" parent="270" name="Renewalcount">
+    <column id="297" parent="269" name="Renewalcount">
       <DataType>integer|0s</DataType>
       <Position>10</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="326" parent="270" name="SubscriptionNumber">
+    <column id="298" parent="269" name="SubscriptionNumber">
       <DataType>bigint|0s</DataType>
       <Position>11</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="327" parent="270" name="subscriptioncount">
+    <column id="299" parent="269" name="subscriptioncount">
       <DataType>integer|0s</DataType>
       <Position>12</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="328" parent="270" name="PreviousSubCost">
+    <column id="300" parent="269" name="PreviousSubCost">
       <DataType>double precision|0s</DataType>
       <Position>13</Position>
-      <StateNumber>124474</StateNumber>
+      <StateNumber>125403</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="329" parent="271" name="teamid">
+    <column id="301" parent="270" name="teamid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
-      <StateNumber>124476</StateNumber>
+      <StateNumber>125405</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="330" parent="271" name="week">
+    <column id="302" parent="270" name="week">
       <DataType>timestamp|0s</DataType>
       <Position>2</Position>
-      <StateNumber>124476</StateNumber>
+      <StateNumber>125405</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="331" parent="271" name="actiontype">
+    <column id="303" parent="270" name="actiontype">
       <DataType>text|0s</DataType>
       <Position>3</Position>
-      <StateNumber>124476</StateNumber>
+      <StateNumber>125405</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="332" parent="271" name="role">
+    <column id="304" parent="270" name="role">
       <DataType>text|0s</DataType>
       <Position>4</Position>
-      <StateNumber>124476</StateNumber>
+      <StateNumber>125405</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="333" parent="271" name="usercount">
+    <column id="305" parent="270" name="usercount">
       <DataType>bigint|0s</DataType>
       <Position>5</Position>
-      <StateNumber>124476</StateNumber>
+      <StateNumber>125405</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="334" parent="271" name="actioncount">
+    <column id="306" parent="270" name="actioncount">
       <DataType>bigint|0s</DataType>
       <Position>6</Position>
-      <StateNumber>124476</StateNumber>
+      <StateNumber>125405</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="335" parent="272" name="teamid">
+    <column id="307" parent="271" name="teamid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
-      <StateNumber>124489</StateNumber>
+      <StateNumber>125433</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="336" parent="272" name="SubscriptionNumber">
+    <column id="308" parent="271" name="SubscriptionNumber">
       <DataType>bigint|0s</DataType>
       <Position>2</Position>
-      <StateNumber>124489</StateNumber>
+      <StateNumber>125433</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="337" parent="272" name="RenewalFlag">
+    <column id="309" parent="271" name="RenewalFlag">
       <DataType>text|0s</DataType>
       <Position>3</Position>
-      <StateNumber>124489</StateNumber>
+      <StateNumber>125433</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="338" parent="272" name="actiontype">
+    <column id="310" parent="271" name="actiontype">
       <DataType>text|0s</DataType>
       <Position>4</Position>
-      <StateNumber>124489</StateNumber>
+      <StateNumber>125433</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="339" parent="272" name="actioncount">
+    <column id="311" parent="271" name="actioncount">
       <DataType>numeric|0s</DataType>
       <Position>5</Position>
-      <StateNumber>124489</StateNumber>
+      <StateNumber>125433</StateNumber>
       <TypeId>1700</TypeId>
     </column>
-    <column id="340" parent="273" name="id">
-      <DataType>text|0s</DataType>
-      <Position>1</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="341" parent="273" name="company">
-      <DataType>text|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="342" parent="273" name="primary_contact_id">
-      <DataType>text|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="343" parent="273" name="country">
-      <DataType>text|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="344" parent="273" name="state">
-      <DataType>text|0s</DataType>
-      <Position>5</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="345" parent="273" name="city">
-      <DataType>text|0s</DataType>
-      <Position>6</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="346" parent="273" name="industry">
-      <DataType>text|0s</DataType>
-      <Position>7</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="347" parent="273" name="fleet_size">
-      <DataType>text|0s</DataType>
-      <Position>8</Position>
-      <StateNumber>848</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="348" parent="274" name="id">
-      <DataType>text|0s</DataType>
-      <Position>1</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="349" parent="274" name="first_name">
-      <DataType>text|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="350" parent="274" name="last_name">
-      <DataType>text|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="351" parent="274" name="job_title">
-      <DataType>text|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="352" parent="274" name="email">
-      <DataType>text|0s</DataType>
-      <Position>5</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="353" parent="274" name="account_id">
-      <DataType>text|0s</DataType>
-      <Position>6</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="354" parent="274" name="lead_id">
-      <DataType>text|0s</DataType>
-      <Position>7</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="355" parent="274" name="created_at">
-      <DataType>timestamp|0s</DataType>
-      <Position>8</Position>
-      <StateNumber>850</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="356" parent="275" name="authuser">
+    <column id="312" parent="272" name="authuser">
       <DataType>text|0s</DataType>
       <Position>1</Position>
       <StateNumber>98216</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="357" parent="275" name="team">
+    <column id="313" parent="272" name="team">
       <DataType>text|0s</DataType>
       <Position>2</Position>
       <StateNumber>98216</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="358" parent="275" name="week">
+    <column id="314" parent="272" name="week">
       <DataType>timestamp|0s</DataType>
       <Position>3</Position>
       <StateNumber>98216</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="359" parent="275" name="highlights_created">
+    <column id="315" parent="272" name="highlights_created">
       <DataType>integer|0s</DataType>
       <Position>4</Position>
       <StateNumber>98216</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="360" parent="276" name="id">
-      <DataType>text|0s</DataType>
-      <Position>1</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="361" parent="276" name="first_name">
-      <DataType>text|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="362" parent="276" name="last_name">
-      <DataType>text|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="363" parent="276" name="job_title">
-      <DataType>text|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="364" parent="276" name="email">
-      <DataType>text|0s</DataType>
-      <Position>5</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="365" parent="276" name="company">
-      <DataType>text|0s</DataType>
-      <Position>6</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="366" parent="276" name="created_at">
-      <DataType>timestamp|0s</DataType>
-      <Position>7</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="367" parent="276" name="converted_at">
-      <DataType>timestamp|0s</DataType>
-      <Position>8</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="368" parent="276" name="source">
-      <DataType>text|0s</DataType>
-      <Position>9</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="369" parent="276" name="country">
-      <DataType>text|0s</DataType>
-      <Position>10</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="370" parent="276" name="city">
-      <DataType>text|0s</DataType>
-      <Position>11</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="371" parent="276" name="state">
-      <DataType>text|0s</DataType>
-      <Position>12</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="372" parent="276" name="industry">
-      <DataType>text|0s</DataType>
-      <Position>13</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="373" parent="276" name="fleet_size">
-      <DataType>text|0s</DataType>
-      <Position>14</Position>
-      <StateNumber>851</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="374" parent="277" name="id">
-      <DataType>text|0s</DataType>
-      <Position>1</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="375" parent="277" name="account_id">
-      <DataType>text|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="376" parent="277" name="created_at">
-      <DataType>timestamp|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="377" parent="277" name="closed_at">
-      <DataType>timestamp|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="378" parent="277" name="is_closed">
-      <DataType>boolean|0s</DataType>
-      <Position>5</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="379" parent="277" name="is_won">
-      <DataType>boolean|0s</DataType>
-      <Position>6</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="380" parent="277" name="country">
-      <DataType>text|0s</DataType>
-      <Position>7</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="381" parent="277" name="state">
-      <DataType>text|0s</DataType>
-      <Position>8</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="382" parent="277" name="city">
-      <DataType>text|0s</DataType>
-      <Position>9</Position>
-      <StateNumber>852</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="383" parent="278" name="teamid">
+    <column id="316" parent="273" name="teamid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
       <StateNumber>98218</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="384" parent="278" name="subscription_term_start_date">
+    <column id="317" parent="273" name="subscription_term_start_date">
       <DataType>date|0s</DataType>
       <Position>2</Position>
       <StateNumber>98218</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="385" parent="278" name="subscription_term_end_date">
+    <column id="318" parent="273" name="subscription_term_end_date">
       <DataType>date|0s</DataType>
       <Position>3</Position>
       <StateNumber>98218</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="386" parent="278" name="total_subscription_price">
+    <column id="319" parent="273" name="total_subscription_price">
       <DataType>double precision|0s</DataType>
       <Position>4</Position>
       <StateNumber>98218</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="387" parent="279" name="teamid">
+    <column id="320" parent="274" name="teamid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
       <StateNumber>98220</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="388" parent="279" name="sport">
+    <column id="321" parent="274" name="sport">
       <DataType>text|0s</DataType>
       <Position>2</Position>
       <StateNumber>98220</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="389" parent="279" name="gender">
+    <column id="322" parent="274" name="gender">
       <DataType>text|0s</DataType>
       <Position>3</Position>
       <StateNumber>98220</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="390" parent="279" name="org_type">
+    <column id="323" parent="274" name="org_type">
       <DataType>text|0s</DataType>
       <Position>4</Position>
       <StateNumber>98220</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="391" parent="280" name="userid">
+    <column id="324" parent="275" name="userid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
       <StateNumber>98223</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="392" parent="280" name="teamid">
+    <column id="325" parent="275" name="teamid">
       <DataType>text|0s</DataType>
       <Position>2</Position>
       <StateNumber>98223</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="393" parent="280" name="videoid">
+    <column id="326" parent="275" name="videoid">
       <DataType>text|0s</DataType>
       <Position>3</Position>
       <StateNumber>98223</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="394" parent="280" name="week">
+    <column id="327" parent="275" name="week">
       <DataType>timestamp|0s</DataType>
       <Position>4</Position>
       <StateNumber>98223</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="395" parent="280" name="uploads">
+    <column id="328" parent="275" name="uploads">
       <DataType>integer|0s</DataType>
       <Position>5</Position>
       <StateNumber>98223</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="396" parent="281" name="userid">
+    <column id="329" parent="276" name="userid">
       <DataType>text|0s</DataType>
       <Position>1</Position>
       <StateNumber>98289</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="397" parent="281" name="role">
+    <column id="330" parent="276" name="role">
       <DataType>text|0s</DataType>
       <Position>2</Position>
       <StateNumber>98289</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="398" parent="281" name="teamid">
+    <column id="331" parent="276" name="teamid">
       <DataType>text|0s</DataType>
       <Position>3</Position>
       <StateNumber>98289</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="399" parent="281" name="week">
+    <column id="332" parent="276" name="week">
       <DataType>timestamp|0s</DataType>
       <Position>4</Position>
       <StateNumber>98289</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="400" parent="281" name="video_views">
+    <column id="333" parent="276" name="video_views">
       <DataType>integer|0s</DataType>
       <Position>5</Position>
       <StateNumber>98289</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="401" parent="282" name="numberofusers">
+    <column id="334" parent="277" name="numberofusers">
       <DataType>bigint|0s</DataType>
       <Position>1</Position>
       <StateNumber>99683</StateNumber>
     </column>
-    <column id="402" parent="282" name="team">
+    <column id="335" parent="277" name="team">
       <DataType>text|0s</DataType>
       <Position>2</Position>
       <StateNumber>99683</StateNumber>
     </column>
-    <column id="403" parent="282" name="week">
+    <column id="336" parent="277" name="week">
       <DataType>timestamp|0s</DataType>
       <Position>3</Position>
       <StateNumber>99683</StateNumber>
     </column>
-    <column id="404" parent="282" name="totalhighlights">
+    <column id="337" parent="277" name="totalhighlights">
       <DataType>bigint|0s</DataType>
       <Position>4</Position>
       <StateNumber>99683</StateNumber>

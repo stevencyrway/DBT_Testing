@@ -1,6 +1,9 @@
 version: 2
 
 models/AggregationLayer:
+  - name: SubscriptionLevelAll
+    description: "Wrapping up details to subscription grain"
+
   - name: TeamActions
     description: An attribute value pair table of all types of actions by team and time
     columns:
