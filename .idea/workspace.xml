@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2edd54-31dd-4010-a640-5bf200405931" name="Changes" comment="all 4 questions answered.">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/packages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/analyses/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/analyses/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/dbt_project.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/macros/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/macros/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/AggregationLayer/SubscriptionsProd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/AggregationLayer/SubscriptionsProd.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/AggregationLayer/TeamActions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/AggregationLayer/TeamActions.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/DropinViews.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/SemanticLayer/DropinViews.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/RenewalRates.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/SemanticLayer/RenewalRates.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/SubscriptionTermUsage.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/SemanticLayer/SubscriptionTermUsage.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/SemanticLayer/TeamActionsView.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/SemanticLayer/TeamActionsView.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/Sources.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/Sources.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/models/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/schema.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/snapshots/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/snapshots/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_anothertest/tests/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/tests/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/models/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/schema.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
