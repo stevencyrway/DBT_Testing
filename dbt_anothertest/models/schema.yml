@@ -25,15 +25,10 @@ models/SemanticLayer:
         tests:
 
   - name: SubscriptionTermUsage
-    description: "The base table for subscriptions"
-    columns:
-      - name: teamid
-        description: "The primary key for this table"
-        tests:
+    description: The base table for subscriptions
 
   - name: TeamActionsView
-    description: "All actions over time a team has performed"
-    columns:
-      - name: teamid
-        description: "The primary key for this table"
-        tests:
+    description: All actions over time a team has performed
+
+  - name: DropInViews
+    description: All actions over time a team has performed

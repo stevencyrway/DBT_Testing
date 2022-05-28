@@ -12,8 +12,8 @@ with viewoverstime as (select teams.teamid,
                        from {{ref('SubscriptionsProd')}}
                                 join {{ref('teams')}} on teams.teamid = "SubscriptionsProd".teamid
                                 join {{ref('TeamActions')}} on "TeamActions".teamid = teams.teamid
+                                and week >= subscription_term_start_date and week <= subscription_term_end_date
                        where role = 'Athlete'
-
                          and actiontype = 'video views'
                        group by teams.teamid, "SubscriptionNumber", subscription_term_start_date,
                                 subscription_term_end_date, week, usercount
@@ -31,8 +31,3 @@ with viewoverstime as (select teams.teamid,
 Select concat('about', ' ', cast(avg(daysto5users) as integer), ' ', 'days to 5 users')
 from avgdaysto5users
 where daysto5users is not null
-
--- 4. Identify teams with a drop in year-over-year video views that are within 45 days of their
--- renewal date
-
-

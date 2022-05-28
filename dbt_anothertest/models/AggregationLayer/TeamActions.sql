@@ -17,7 +17,6 @@ With uploadscte as (Select uploads.teamid,
                     from defaultdb.dev_schema.uploads
                     group by teamid, week),
 
-
      viewscte as (Select teamid,
                          date_trunc('week', week) as week,
                         'video views' as actiontype,

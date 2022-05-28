@@ -5,9 +5,9 @@ Select teams.teamid,
        "RenewalFlag",
        actiontype,
        sum(actioncount) as Actioncount
-from defaultdb.dev_schema."SubscriptionsProd"
-         join defaultdb.dev_schema.teams on teams.teamid = "SubscriptionsProd".teamid
-         join defaultdb.dev_schema."TeamActions" on "TeamActions".teamid = teams.teamid
+       from {{ref('SubscriptionsProd')}}
+                                join {{ref('teams')}} on teams.teamid = "SubscriptionsProd".teamid
+                                join {{ref('TeamActions')}} on "TeamActions".teamid = teams.teamid
     and week >= subscription_term_start_date and week <= subscription_term_end_date
 group by teams.teamid, "SubscriptionNumber", "RenewalFlag", actiontype
 
