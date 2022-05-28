@@ -1,12 +1,8 @@
 version: 2
 
 sources:
-  - name: PostgresPersonal
+  - name: dev_schema
     database: defaultdb
-    quoting:
-      database: false
-      schema: false
-      identifier: false
     tables:
       - name: teams
       - name: uploads

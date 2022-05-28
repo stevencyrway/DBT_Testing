@@ -5,7 +5,7 @@ With uploadscte as (Select uploads.teamid,
                             null as role,
                            count(distinct uploads.userid)   as Userscount,
                            count(distinct uploads.videoid)  as Actioncount
-                    from {{ref('uploads')}}
+                    from {{ source('dev_schema', 'uploads') }}
                     group by teamid, week),
 
     videoscte as (Select uploads.teamid,
@@ -14,7 +14,7 @@ With uploadscte as (Select uploads.teamid,
                             null as role,
                            count(distinct uploads.userid)   as Userscount,
                            sum(uploads.uploads)             as Actioncount
-                    from {{ref('uploads')}}
+                    from {{ source('dev_schema', 'uploads') }}
                     group by teamid, week),
 
      viewscte as (Select teamid,
@@ -23,7 +23,7 @@ With uploadscte as (Select uploads.teamid,
                          role,
                          count(distinct userid)   as usercount,
                          sum(video_views)         as actioncount
-                  from {{ref('views')}}
+                  from {{ source('dev_schema', 'views') }}
                   group by teamid, week, role),
 
      highlightscte as (Select team,
@@ -32,7 +32,7 @@ With uploadscte as (Select uploads.teamid,
                              null as role,
                               count(distinct authuser) as usercount,
                               sum(highlights_created)  as Actioncount
-                       from {{ref('highlights')}}
+                       from {{ source('dev_schema', 'highlights') }}
                        group by team, week)
 
 Select * from viewscte

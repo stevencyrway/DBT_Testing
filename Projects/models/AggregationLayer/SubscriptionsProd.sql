@@ -21,4 +21,4 @@ Select concat(teamid,Lpad((cast(ROW_NUMBER() OVER (PARTITION BY teamid
        1                                                                      as subscriptioncount,
        LAG(total_subscription_price)
        OVER (PARTITION by teamid ORDER BY subscription_term_start_date ASC)   as "PreviousSubCost"
-from {{ref('subscriptions')}}
+from {{ source('dev_schema', 'subscriptions') }}

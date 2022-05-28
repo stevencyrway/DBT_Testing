@@ -20,7 +20,7 @@ SELECT subscriptionid,
        max(subscription_term_end_date)                                 as EndDate,
        sum(usercount)                                                  as TotalDistinctUsers
 from {{ref('SubscriptionsProd')}}
-join {{ref('teams')}} on teams.teamid = "SubscriptionsProd".teamid
+join {{ source('dev_schema', 'teams') }} on teams.teamid = "SubscriptionsProd".teamid
 join {{ref('TeamActions')}} on "TeamActions".teamid = teams.teamid
     AND week >= subscription_term_start_date
     AND week <= subscription_term_end_date

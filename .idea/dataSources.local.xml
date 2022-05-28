@@ -15,7 +15,11 @@
               <node kind="schema" qname="@" />
             </node>
             <node kind="database" qname="defaultdb">
-              <node kind="schema" qname="dev_schema" />
+              <node kind="schema">
+                <name qname="dev_schema" />
+                <name qname="dev_schema_aggregations" />
+                <name qname="dev_schema_semantic" />
+              </node>
             </node>
           </node>
         </introspection-scope>
