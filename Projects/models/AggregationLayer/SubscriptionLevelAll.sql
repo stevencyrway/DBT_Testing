@@ -1,4 +1,5 @@
-with subs as (SELECT subscriptionid,
+--the main subscription level query
+SELECT subscriptionid,
        teams.teamid,
        total_subscription_price,
        "PreviousSubCost",
@@ -20,14 +21,12 @@ with subs as (SELECT subscriptionid,
        min(subscription_term_start_date)                               AS StartDate,
        max(subscription_term_end_date)                                 as EndDate,
        sum(usercount)                                                  as TotalDistinctUsers
-FROM dev_schema."SubscriptionsProd"
-         JOIN dev_schema.Teams ON teams.teamid = "SubscriptionsProd".teamid
-         JOIN dev_schema."TeamActions" ON "TeamActions".teamid = teams.teamid
+from {{ref('SubscriptionsProd')}}
+join {{ref('teams')}} on teams.teamid = "SubscriptionsProd".teamid
+join {{ref('TeamActions')}} on "TeamActions".teamid = teams.teamid
     AND week >= subscription_term_start_date
     AND week <= subscription_term_end_date
 -- where subscriptionid = '0010d7953d20fda16bd4fa363a150cf30000001'
 GROUP BY subscriptionid, teams.teamid, total_subscription_price, "PreviousSubCost", activesub, yearssubscribed, sport,
          gender, org_type
-order by subscriptionid asc, teams.teamid asc)
-
-Select count(subscriptionid), count(distinct subscriptionid) from subs
+order by subscriptionid asc, teams.teamid asc
