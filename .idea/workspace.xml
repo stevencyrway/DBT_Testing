@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2edd54-31dd-4010-a640-5bf200405931" name="Changes" comment="done.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/models/SemanticLayer/DropinViews.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/SemanticLayer/DropinViews.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/models/AggregationLayer/SubscriptionLevelAll.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/models/AggregationLayer/SubscriptionLevelAll.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
