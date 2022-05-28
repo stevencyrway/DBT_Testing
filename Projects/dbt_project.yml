@@ -36,11 +36,11 @@ models:
     # Config indicated by + and applies to all files under models/AggregationLayer/
     AggregationLayer:
       +materialized: table
+      +schema: aggregations
     SemanticLayer:
       +materialized: table
+      +schema: semantic
 
-# quoting:
-  #     database: false
-  #    schema: false
-  #    identifier: false
+
+
 
